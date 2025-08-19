@@ -32,7 +32,7 @@ public class Calculadora {
         if (b == 0) {
             throw new ArithmeticException("No se puede dividir entre cero");
         }
-        double resultado = (double) a * b; // fallo aquí
+        double resultado = (double) a / b; // fallo aquí
         historial.add(resultado);
         return resultado;
     }
